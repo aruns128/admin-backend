@@ -1,6 +1,6 @@
 const express = require('express');
-const User = require('../models/User');
-const Contact = require('../models/Contact')
+const User = require('../models/UserSchema');
+const Contact = require('../models/ContactSchema')
 const { authenticateJWT } = require('./auth');
 const router = express.Router();
 
