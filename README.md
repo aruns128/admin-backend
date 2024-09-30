@@ -1,6 +1,3 @@
-Here’s a sample `README.md` file for your Node.js project, which includes instructions on how to set up and run the project, as well as an explanation of its features and API endpoints.
-
----
 
 # School Contact and Admissions Assistance Application
 
