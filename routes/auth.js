@@ -51,7 +51,7 @@ router.post("/login", async (req, res) => {
   const token = jwt.sign({ userId: user._id, role: user.role }, JWT_SECRET, {
     expiresIn: "1h",
   });
-  res.json({ token });
+  res.json({ role: user.role, token });
 });
 
 // Middleware to authenticate JWT
