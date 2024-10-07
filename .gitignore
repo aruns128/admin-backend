@@ -6,7 +6,8 @@ logs
 *.log
 npm-debug.log*
 
-
+# removed .env
+.env
 
 # Build output
 dist/
